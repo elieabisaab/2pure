@@ -1,0 +1,378 @@
+html {
+	height: 100%;
+	background: #28282E;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+}
+
+::selection {
+	background: #96ddf9;
+}
+
+::-moz-selection {
+	background: #96ddf9;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+img {
+	border: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+#loading {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -45px;
+	margin-left: -45px;	
+}
+#loading .text {
+	width: 300px;
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	margin-left: -150px;
+	font-family: Arial;
+	color: #999;
+	text-align: center;
+}
+
+.section {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	min-height: 550px;
+	display: none;
+	background: #FFF;
+}
+
+.table {
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+
+.tableCell {
+	width: 100%;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#menu {
+	position: absolute;
+	top: 7%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+	display: none;
+	cursor: default;
+}
+#menu ul li {
+	display: inline-block;
+	background: url(../images/menu_sep.png) right center no-repeat;
+	padding-right: 23px;
+	margin-right: 17px;
+}
+#menu ul li.lastChild {
+	background: none;
+	padding-right: 0;
+	margin-right: 0;
+}
+#menu ul li a {
+	font: 1em 'titillium_light';
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #878787;
+	transition: color .5s ease;
+	letter-spacing: .1em;
+}
+#menu ul li a:hover, #menu ul li a.active {
+	color: #1e7c96;
+}
+#menu #logoMobile {
+	position: absolute;
+	top: -4px;
+	left: 3.9%;
+}
+#menu a.iconMobile {
+	float: right;
+	padding-left: 18px;
+	padding-right: 18px;
+	height: 100%;
+	display: none;
+}
+#menu a.xBtn {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 57px;
+	height: 59px;
+	background: url(../images/x_btn.jpg);
+}
+#btnsMobile {
+	position: fixed;
+	top: -200%;
+	left: 0;
+	background: #28282e;
+	width: 100%;
+	min-height: 100%;
+	z-index: 1000;
+	display: none;
+}
+#btnsMobile a.closeMenuBtn {
+	padding: 16px;
+	text-align: right;
+	display: block;
+}
+#btnsMobile ul li {
+	background: none;
+	padding-right: 0;
+	margin-right: 0;
+	display: block;
+}
+#btnsMobile ul li.lastChild {
+	background: none;
+}
+#btnsMobile ul li a {
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	font: 1.1em 'titillium_regular';
+	color: #b9b9b9;
+	padding-top: 17px;
+	padding-bottom: 18px;
+	border-bottom: 1px solid #38383f;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#btnsMobile ul li a:active, #btnsMobile ul li a.active {
+	color: #1e7c96;	
+}
+
+#footer {
+	height: auto;
+	overflow: visible;
+	min-height: 0;
+	background: #060606;
+	padding-top: 72px;
+	padding-bottom: 83px;
+	position: relative;
+	z-index: 200;
+}
+#footer .blue {
+	position: absolute;
+	width: 85.5%;
+	height: 5px;
+	background: #59ccf8;
+	top: -1px;
+	left: 50%;
+	margin-left: -42.7%;
+}
+#footer .text {
+	width: 90%;
+	margin: 0 auto;
+	font: 1.23em 'titillium_regular';
+	color: #FFF;
+}
+#footer .text a {
+	color: #FFF;
+	text-decoration: none;
+}
+#footer .text a:hover {
+	text-decoration: underline;
+}
+#footer .text ul li {
+	display: inline-block;
+	margin-left: 85px;
+	margin-right: 85px;
+	margin-bottom: 20px;
+}
+#footer .text ul li img {
+	display: inline-block;
+}
+#footer .text ul li img.mobile {
+	display: none;
+}
+#footer .text ul li .textMobile {
+	display: none;
+}
+#footer .text ul li .textRegular {
+	display: block;
+}
+#footer .sep {
+	width: 85.5%;
+	margin: 55px auto 42px auto;
+	height: 1px;
+	background: #282828;
+}
+#footer .copy {
+	font: .76em 'titillium_regular';
+	color: #373737;
+	letter-spacing: .15em;
+	text-transform: uppercase;
+}
+#footer .social {
+	margin-top: 18px;
+}
+#footer .social a {
+	display: inline-block;
+	margin-left: 7px;
+	margin-right: 7px;
+}
+
+#socialTab {
+	position: fixed;
+	top: 50%;
+	right: 0;
+	width: 50px;
+	border: 1px solid #eaeced;
+	background: #eaeced;
+	z-index: 150;
+}
+#socialTab a {
+	margin-bottom: 1px;
+	width: 50px;
+	height: 50px;
+	float: right;
+}
+#socialTab a.fb {
+	background: url(../images/fb_share_icon.jpg);
+}
+#socialTab a.twitter {
+	background: url(../images/twitter_share_icon.jpg);
+}
+#socialTab a.pin {
+	margin-bottom: 0;
+	background: url(../images/pin_share_icon.jpg);
+}
+#socialTab a:hover {
+	background-position: bottom;
+}
+
+#map {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	background: rgba(0,0,0,.8);
+	display: none;
+	text-align: center;
+}
+#map a.close {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 15px;
+	height: 17px;
+	background: url(../images/close_btn.png);
+}
+#map a.close:hover {
+	background-position: bottom;
+}
+
+a.goTop {
+	border-top: 1px solid #68686c;
+	padding-top: 43px;
+	padding-bottom: 20px;
+	background: url(../images/go_top_arrow.png) center 25px no-repeat #35353a;
+	font: 1.1em 'titillium_light';
+	color: #76767b;
+	text-decoration: none;
+	display: none;
+	opacity: 0;
+	text-align: center;
+}
+
+
+@media screen and (max-width:1024px) {
+	body {
+		font-size: 12px;
+	}
+	#menu {
+		position: fixed;
+		top: 0;
+		background: #FFF;
+		height: 57px;
+		border-bottom: 2px solid #dbdbdb;
+		z-index: 1000;
+	}
+	#menu ul {
+		display: none;
+	}
+	#menu a.iconMobile, #btnsMobile, #btnsMobile ul, #menu a.xBtn {
+		display: block;
+	}
+	#menu #logoMobile {
+		top: 0;
+		left: 0;
+		height: 59px;
+		background: #239fd2;
+		padding-left: 22px;
+		padding-right: 22px;
+	}
+	#menu #logoMobile img {
+		width: 68px;
+	}
+	#footer {
+		background: #28282e;
+		padding-bottom: 50px;
+		padding-top: 50px;
+	}
+	#footer .blue, #footer .sep, #footer .copy, #footer .social {
+		display: none;
+	}
+	#footer .text {
+		color: #76767b;
+	}
+	#footer .text a {
+		color: #76767b;
+	}
+	#footer .text ul li {
+		text-align: center;
+		margin-bottom: 30px;
+		margin-left: 0;
+		margin-right: 0;
+		width: 90%;
+	}
+	#footer .text ul li img {
+		display: none;
+	}
+	#footer .text ul li .textRegular {
+		display: none;
+	}
+	#footer .text ul li .textMobile {
+		display: block;
+	}
+	#footer .text ul li img.mobile {
+		display: inline-block;
+	}
+	a.goTop {
+		display: block;
+	}
+}

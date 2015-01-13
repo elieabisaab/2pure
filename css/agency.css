@@ -1,0 +1,287 @@
+#makesYouCurious .bg {
+	position: absolute;
+	bottom: 0;
+	left: .5%;
+	width: 99%;
+	height: 99%;
+	background: url(../images/make_you_curious_bg.jpg) 50% 50% fixed no-repeat;
+	background-size: cover;
+}
+#makesYouCurious .text {
+	position: absolute;
+	top: 50%;
+	margin-top: -65px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	display: none;
+}
+#makesYouCurious .text h1 {
+	font: 3.4em 'futura_bk_bold';
+	color: #FFF;
+	text-transform: uppercase;
+	line-height: .92em;
+	letter-spacing: -.05em;
+}
+#makesYouCurious .text h2 {
+	font: 1.8em 'lokicola';
+	color: #FFF;
+	margin-top: 27px;
+	letter-spacing: .02em;
+}
+#makesYouCurious .text .line {
+	margin: 45px auto 0 auto;
+	width: 90px;
+	height: 3px;
+	background: #00acee;
+}
+#makesYouCurious .scrollDown {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -40px;
+	width: 81px;
+	height: 40px;
+	background: url(../images/scroll_down_circle.png);
+	cursor: pointer;
+	display: none;
+}
+#makesYouCurious .scrollDown .arrow {
+	position: absolute;
+	top: 22px;
+	left: 50%;
+	margin-left: -9px;
+}
+
+#emtpy {
+	display: block;
+}
+
+#emtpy .bg {
+	position: absolute;
+	bottom: 0;
+	left: .5%;
+	width: 99%;
+	height: 99%;
+	background: #e7e7e7;
+}
+
+#content {
+	position: absolute;
+	top: 16%;
+	left: 50%;
+	width: 65.5%;
+	margin-left: -42.7%;
+	background: #FFF;
+	padding: 5% 10% 15% 10%;
+	z-index: 100;
+	text-align: center;
+}
+#content h2 {
+	font: 3.7em 'titillium_thin';
+	color: #000;
+	letter-spacing: .01em;
+	text-transform: uppercase;
+}
+#content h1 {
+	font: 4.4em 'titillium_semibold';
+	color: #000;
+	text-transform: uppercase;
+	line-height: .7em;
+}
+#content #aPassion {
+	margin: 35px auto 42px auto;
+	background: url(../images/a_passion.jpg) center no-repeat;
+	height: 23px;
+}
+#content #aPassionMobile {
+	font: 1.6em 'titillium_bold';
+	color: #000;
+	text-transform: uppercase;
+	line-height: 1.1em;
+	display: none;
+	letter-spacing: .03em;
+	line-height: 1em;
+}
+#content .text {
+	font: 1.84em 'titillium_light';
+	color: #939393;
+	text-transform: uppercase;
+	line-height: 1.4em;
+	letter-spacing: .08em;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#content .text ul li {
+	float: left;
+	width: 30%;
+	padding-right: 3%;
+	font: .7em 'titillium_light';
+	color: #282828;
+	text-align: left;
+	letter-spacing: 0;
+	line-height: 1.2em;
+	text-transform: none;
+}
+#content .text ul li.lastChild {
+	padding-right: 0;
+	width: 33%;
+}
+#content .text .lliContainer {
+	margin-top: 25px;
+	margin-bottom: 25px;	
+}
+#content .text .lli {
+	background: url(../images/categ_icon.jpg) left center no-repeat;
+	padding-left: 23px;
+	color: #282828;
+	display: block;
+}
+#content .text ul li .title {
+	height: 30px;
+	padding-bottom: 14px;
+	padding-left: 58px;
+	margin-bottom: 23px;
+	font: 1.23em 'titillium_bold';
+	color: #000;
+	background: left center no-repeat;
+	line-height: 1em;
+}
+#content .text ul li .title.title1 {
+	background-image: url(../images/01.jpg);
+}
+#content .text ul li .title.title2 {
+	background-image: url(../images/02.jpg);
+}
+#content .text ul li .title.title3 {
+	background-image: url(../images/03.jpg);
+}
+#content .text ul li .title.title1Mobile, #content .text ul li .title.title2Mobile, #content .text ul li .title.title3Mobile {
+	margin-bottom: 15px;
+	display: none;
+	text-align: center;	
+}
+#content .sep {
+	height: 1px;
+	background: #000;
+	margin: 55px auto 100px auto;
+}
+#content .sep2 {
+	height: 1px;
+	background: #99def8;
+	width: 130px;
+	margin: 33px auto 92px auto;
+}
+#content .learnMore {
+	font: 2.84em 'titillium_bold';
+	color: #000;
+}
+#content .take {
+	margin: 25px auto 80px auto;
+	font: 1.92em 'titillium_light';
+	color: #828282;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+#content .categs {
+	width: 85%;
+	margin: 0 auto;
+	text-align: center;
+}
+#content .categs .bloc {
+	display: inline-block;
+	margin-right: 40px;
+	vertical-align: top;
+}
+#content .categs .bloc ul li {
+	background: url(../images/categ_icon.jpg) left center no-repeat;
+	padding-left: 23px;
+	font: 1.23em 'titillium_light';
+	color: #000;
+	margin-bottom: 16px;
+	text-align: left;
+}
+#content #btns {
+	position: relative;
+}
+#content #btns a {
+	width: 271px;
+	height: 47px;
+	background: url(../images/explore_btn_bg.jpg) repeat-x;
+	border-radius: 3px;
+	font-family: 'titillium_regular';
+	color: #FFF;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: .1em;
+}
+#content #btns a.explore {
+	float: left;
+	margin-left: 5%;
+}
+#content #btns a.view {
+	float: right;
+	margin-right: 5%;
+}
+#content #btns a:hover {
+	background-position: bottom;
+}
+#content #btns .or {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -39px;
+	margin-top: -39px;
+	width: 78px;
+}
+
+#tabs {
+	position: fixed;
+	top: 1%;
+	right: 0;
+	width: 68px;
+	border: 1px solid #eaeced;
+	background: #eaeced;
+	z-index: 150;
+}
+#tabs a {
+	margin-bottom: 1px;
+	width: 68px;
+	height: 68px;
+	float: right;
+}
+#tabs a.next {
+	background: url(../images/next_arrow.jpg);
+}
+#tabs a.prev {
+	background: url(../images/prev_arrow.jpg);
+}
+#tabs .nextTab, #tabs .prevTab {
+	position: absolute;
+	width: auto;
+	height: 68px;
+	font: 1em;
+	padding-right: 62px;
+	padding-left: 25px;
+	border: 1px solid #eaeced;
+	right: -1px;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: none;
+}
+#tabs .nextTab {
+	top: -1px;
+	background: url(../images/next_arrow.jpg) right no-repeat #FFF;
+}
+#tabs .prevTab {
+	top: 68px;
+	background: url(../images/prev_arrow.jpg) right no-repeat #FFF;
+}
+#tabs .blueText {
+	font-family: 'titillium_light';
+	color: #71c1e0;
+}
+#tabs .blabkText {
+	font-family: 'titillium_bold';
+	color: #464646;
+}

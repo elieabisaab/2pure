@@ -1,0 +1,333 @@
+#makesYouCurious .bg {
+	position: absolute;
+	bottom: 0;
+	left: .5%;
+	width: 99%;
+	height: 99%;
+	background: url(../images/make_you_curious_bg.jpg) 50% 50% fixed no-repeat;
+	background-size: cover;
+}
+#makesYouCurious .text {
+	position: absolute;
+	top: 26.6%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+#makesYouCurious .text h1 {
+	font: 9.7em 'futura_bk_bold';
+	color: #FFF;
+	text-transform: uppercase;
+	line-height: .92em;
+	letter-spacing: -.04em;
+}
+#makesYouCurious .text .line {
+	margin: 45px auto 0 auto;
+	width: 90px;
+	height: 3px;
+	background: #00acee;
+}
+#makesYouCurious .scrollDown {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -40px;
+	width: 81px;
+	height: 40px;
+	background: url(../images/scroll_down_circle.png);
+	cursor: pointer;
+}
+#makesYouCurious .scrollDown .arrow {
+	position: absolute;
+	top: 22px;
+	left: 50%;
+	margin-left: -9px;
+}
+
+#cloudContainer {
+	position: absolute;
+	top: 65.8%;
+	left: 19.4%;
+	width: 339px;
+	height: 292px;
+	z-index: 200;
+	display: none;	
+}
+
+#cloudContainer #cloud {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#method .text, #caseStudies .text {
+	position: absolute;
+	top: 12.5%;
+	left: 50%;
+	width: 54%;
+	margin-left: -27%;
+	text-align: center;
+	opacity: 0;
+}
+#method .text h1, #caseStudies .text h1 {
+	font: 2.7em 'titillium_bold';
+	color: #212121;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+}
+#method .text h2 {
+	margin-top: 20px;
+	font: .7em Arial;
+	color: #8e8e8e;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+}
+#method .sep {
+	width: 110px;
+	height: 2px;
+	margin: 30px auto;
+	background: #99def8;
+	display: none;
+}
+#method .text .regular, #caseStudies .regular {
+	margin-top: 50px;
+	font: 1.15em 'titillium_light';
+	color: #939393;
+	line-height: 1.8em;
+}
+#method #bar {
+	position: absolute;
+	bottom: 30%;
+	left: 50%;
+	width: 834px;
+	margin-left: -417px;
+	height: 7px;
+	background: url(../images/method_bar.jpg);
+}
+#method #bar .circle {
+	position: absolute;
+	width: 206px;
+	height: 206px;
+	background: rgba(153, 222, 258, .7);
+	border-radius: 100px;
+	top: -100px;
+	display: none;
+}
+#method #bar .circle .particles {
+	position: absolute;
+	background: url(../images/particles.png);
+	background-size: cover;
+	left: 50%;
+	top: 50%;
+	display: none;
+}
+#method #bar .circle .particles.particles1 {
+	width: 250px;
+	height: 276px;
+	margin-left: -125px;
+	margin-top: -138px;
+}
+#method #bar .circle .particles.particles2 {
+	width: 200px;
+	height: 221px;
+	margin-left: -100px;
+	margin-top: -110px;
+}
+#method #bar .circle.studying {
+	left: -95px;
+}
+#method #bar .circle.creating {
+	left: 178px;
+}
+#method #bar .circle.developing {
+	right: 178px;
+}
+#method #bar .circle.testing {
+	right: -95px;
+}
+#method #bar .dot {
+	position: absolute;
+	top: -100px;
+	width: 206px;
+	height: 206px;
+	background: url(../images/method_dot.png) center no-repeat;
+	cursor: pointer;
+}
+#method #bar .dot a {
+	color: #000;
+	text-decoration: none;
+}
+#method #bar .dot .icon {
+	position: absolute;
+	top: 30px;
+	left: 78px;
+}
+#method #bar .dot .desc {
+	position: absolute;
+	bottom: 60px;
+	left: 50%;
+	margin-left: -100px;
+	width: 200px;
+	font: 1.07em 'titillium_light';
+	color: #000;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+}
+#method #bar .dot.studying {
+	left: -95px;
+}
+#method #bar .dot.creating {
+	left: 178px;
+}
+#method #bar .dot.developing {
+	right: 178px;
+}
+#method #bar .dot.testing {
+	right: -95px;
+}
+#method #bar .mask1, #method #bar .mask2 {
+	position: absolute;
+	top: -100px;
+	width: 512px;
+	height: 206px;
+	background: #FFF;
+	z-index: 300;
+}
+#method #bar .mask1 {
+	left: -95px;
+}
+#method #bar .mask2 {
+	right: -95px;
+}
+#method .findMore {
+	position: absolute;
+	bottom: 3%;
+	width: 100%;
+	left: 0;
+}
+#method .findMore a {
+	display: inline-block;
+	padding: 20px 15px 0 15px;
+	border-top: 1px solid #99def8;
+	font: .84em 'titillium_light';
+	color: #8e8e8e;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	transition: color .5s ease;
+}
+#method .findMore a:hover {
+	color: #000;
+}
+
+#caseStudies {
+	height: auto;
+	overflow: visible;
+	min-height: 0;
+	padding-top: 45px;
+	padding-bottom: 120px;
+}
+#caseStudies .text {
+	position: static;
+	margin: 0 auto;
+}
+#caseStudies #projects {
+	margin: 65px auto 0 auto;
+	width: 82%;
+	opacity: 0;
+}
+#caseStudies #projects ul li {
+	display: inline-block;
+	margin-left: 13px;
+	margin-right: 13px;
+	margin-bottom: 26px;
+	cursor: pointer;
+}
+#caseStudies #projects ul li a {
+	text-decoration: none;	
+}
+#caseStudies #projects ul li .pic {
+	width: 306px;
+	height: 227px;
+	overflow: hidden;
+	position: relative;	
+}
+#caseStudies #projects ul li .pic img.mobile {
+	display: none;
+}
+#caseStudies #projects ul li .pic .dark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .6);
+	display: none;
+}
+#caseStudies #projects ul li .pic .plusIcon {
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	width: 67px;
+	height: 67px;
+	margin-left: -33px;
+	margin-bottom: -33px;
+	background: url(../images/plus_icon.jpg);
+	opacity: 0;
+}
+#caseStudies #projects ul li .desc {
+	margin-top: 15px;
+	font: .84em Arial;
+	color: #8e8e8e;
+	letter-spacing: .15em;
+	text-transform: uppercase;
+}
+#caseStudies #projects ul li .desc h1 {
+	font: 1.5em 'titillium_bold';
+	color: #2e2e2e;
+	margin-bottom: 7px;
+}
+#caseStudies #projects ul li .viewProject {
+	margin: 16px auto 0 auto;
+	font: 1em Arial;
+	color: #FFF;
+	text-decoration: none;
+	padding: 12px 29px;
+	border: 1px solid #a8a19f;
+	border-radius: 3px;
+	display: none;
+	text-transform: uppercase;
+}
+#caseStudies a.moreProjects {
+	margin: 40px auto 0 auto;
+	display: inline-block;
+	width: 119px;
+	height: 119px;
+	background: #99def8;
+	transition: background .5s ease;
+	font-family: 'titillium_regular';
+	color: #FFF;
+	line-height: 1.5em;
+	letter-spacing: .2em;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 100px;
+	opacity: 0;
+}
+#caseStudies a.moreProjects:hover {
+	background: #6fd0f5;
+}
+
+a.letsWork {
+	background: #239fd2;
+	text-align: center;
+	font: .9em 'titillium_semibold';
+	color: #FFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-top: 34px;
+	padding-bottom: 34px;
+	display: none;
+	letter-spacing: .2em;
+	opacity: 0;
+}

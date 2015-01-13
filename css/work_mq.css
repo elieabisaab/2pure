@@ -1,0 +1,105 @@
+@media screen and (max-width:1024px) {
+	#letsWork {
+		min-height: 320px;
+	}
+	#letsWork .bg {
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-attachment: scroll;
+		background-size: cover;
+	}
+	#letsWork .text {
+		position: absolute;
+		top: 50%;
+		margin-top: -40px;
+		left: 0;
+		width: 100%;
+		text-align: center;
+	}
+	#letsWork .text h1, #letsWork .text h2 {
+		display: block;
+		font: 3em 'futura_bk_bold';
+		color: #FFF;
+		text-transform: uppercase;
+		letter-spacing: -.02em;
+		line-height: .8em;
+	}
+	#letsWork .text .line {
+		margin: 31px auto 0 auto;
+	}
+	#letsWork #socialTab, #letsWork .text h3, #squares ul li .hoverImg, #list a.freeQuote {
+		display: none;
+	}
+	#squares {
+		position: static;
+		overflow: visible;
+	}
+	#squares .anim {
+		width: 100%;
+		position: static;
+	}
+	#squares ul {
+		float: none;
+	}
+	#squares ul li {
+		float: none;
+		width: 100%;
+		position: relative;
+		cursor: pointer;
+	}
+	#squares ul li img {
+		display: none;
+	}
+	#squares ul li img.mobile, #squares ul li .desc, a.letsWork {
+		display: block;
+	}
+	#list {
+		padding-top: 50px;
+		padding-bottom: 65px;
+		padding-left: 8%;
+		padding-right: 8%;
+		width:  84%;
+	}
+	#list h1 {
+		font: 2.5em 'titillium_bold';
+		color: #000;
+		text-transform: uppercase;
+		letter-spacing: .01em;
+		line-height: 1em;
+	}
+	#list h2 {
+		font: 1.25em 'titillium_light';
+		color: #636363;
+		margin-top: 15px;
+		text-transform: none;
+		letter-spacing: .1em;
+		letter-spacing: .01em;
+	}
+	#list .sep {
+		width: 110px;
+		margin: 35px auto 35px auto;
+	}
+	#list .categs {
+		width: 100%;
+	}
+	#list .categs .bloc {
+		display: block;
+		margin-right: 0;
+	}
+	#list .categs .bloc ul li {
+		background: none;
+		padding-left: 0;
+		font: 1.5em 'titillium_light';
+		color: #636363;
+		margin-bottom: 6px;
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+

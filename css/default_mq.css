@@ -1,0 +1,126 @@
+@media screen and (max-width:1024px) {
+	#makesYouCurious {
+		min-height: 320px;	
+	}
+	#makesYouCurious .bg {
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-attachment: scroll;
+	}
+	#makesYouCurious .text {
+		top: 50%;
+		margin-top: -80px;
+	}
+	#makesYouCurious .text h1 {
+		font: 4.5em 'futura_bk_bold';
+		line-height: .9em;
+	}
+	#method #bar {
+		display: none;
+	}
+	#method, #caseStudies {
+		height: auto;
+		min-height: 0;
+		padding-bottom: 50px;
+		padding-top: 70px;
+	}
+	#caseStudies {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	#method .text, #caseStudies .text, #caseStudies #projects, #caseStudies #projects ul li .pic .plusIcon, #caseStudies a.moreProjects {
+		opacity: 1;
+	}
+	#method .text, #caseStudies .text {
+		width: 88%;
+		position: static;
+		margin: 0 auto;
+		top: 0;
+		left: 0;
+	}
+	#method .text h1, #caseStudies .text h1 {
+		letter-spacing: 0;
+		line-height: 1em;
+		width: 65%;
+		margin: 0 auto;
+		font-size: 2em;
+	}
+	#method .text h2 {
+		display: none;
+	}
+	#method .sep {
+		display: block;
+	}
+	#method .text .regular {
+		margin-top: 0;
+		font-size: 1.4em;
+		color: #636363;
+	}
+	#method .findMore {
+		position: static;
+		margin-top: 50px;
+		bottom: 0;
+	}
+	#method .findMore a {
+		color: #239fd2;
+		padding: 0 3px 6px 3px;
+		border-bottom: 2px solid #ebebeb;
+		border-top: none;
+		font-size: 1em;
+	}
+	#caseStudies .regular {
+		display: none;
+	}
+	#caseStudies #projects {
+		margin: 30px auto 0 auto;
+		width: 100%;
+		max-width: 500px;
+	}
+	#caseStudies #projects ul li {
+		display: block;
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 0;
+		position: relative;
+	}
+	#caseStudies #projects ul li .pic {
+		width: 100%;
+		height: auto;
+		overflow: visible;	
+	}
+	#caseStudies #projects ul li .pic img {
+		display: none;
+	}
+	#caseStudies #projects ul li .pic img.mobile {
+		display: block;
+	}
+	#caseStudies #projects ul li .pic .plusIcon {
+		display: none;
+	}
+	#caseStudies #projects ul li .desc {
+		position: absolute;
+		bottom: 10%;
+		left: 0;
+		color: #FFF;
+		width: 100%;
+	}
+	#caseStudies #projects ul li .desc h1 {
+		font-size: 2.8em;
+		color: #FFF;
+		margin-bottom: 0;
+	}
+	#caseStudies #projects ul li .viewProject {
+		display: inline-block;
+	}
+	#caseStudies a.moreProjects {
+		margin: 42px auto;
+		background: #cecece;
+		width: 109px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	a.letsWork {
+		display: block;
+	}
+}

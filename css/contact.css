@@ -1,0 +1,197 @@
+#menu ul li a {
+	color: #d5d5d5;
+}
+#menu ul li a:hover, #menu ul li a.active {
+	color: #129ac0;
+}
+#letsTalk {
+	height: 500px;
+	min-height: 500px;
+	min-width: 0;
+}
+#letsTalk .bg {
+	position: absolute;
+	bottom: 0;
+	left: .5%;
+	width: 99%;
+	height: 99%;
+	background: url(../images/contact_bg.jpg) 50% 50% fixed no-repeat;
+	background-size: cover;
+}
+#letsTalk .text {
+	position: absolute;
+	top: 195px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+#letsTalk .text h1 {
+	font: 5.3em 'futura_bk_bold';
+	color: #FFF;
+	text-transform: uppercase;
+	letter-spacing: .02em;
+}
+#letsTalk .text h2 {
+	font: 1.1em 'titillium_regular';
+	color: #FFF;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	margin-top: 10px;
+}
+#letsTalk .text .line {
+	margin: 52px auto 0 auto;
+	width: 90px;
+	height: 3px;
+	background: #00acee;
+}
+#letsTalk .scrollDown {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -40px;
+	width: 81px;
+	height: 40px;
+	background: url(../images/scroll_down_circle.png);
+	cursor: pointer;
+}
+#letsTalk .scrollDown .arrow {
+	position: absolute;
+	top: 22px;
+	left: 50%;
+	margin-left: -9px;
+}
+#letsTalk #socialTab {
+	position: absolute;
+	margin-top: -77px;
+}
+
+#weWant {
+	height: auto;
+	min-height: auto;
+	overflow: visible;
+	padding: 7% 0 14% 0;
+	background: #FFF;
+}
+#weWant .anyQuestion ul li {
+	display: inline-block;
+	width: 275px;
+	margin-right: 80px;
+	margin-bottom: 40px;
+	text-align: left;
+	font: 1.1em 'titillium_light';
+	color: #676767;
+	vertical-align: top;
+}
+#weWant .anyQuestion ul li .img {
+	margin-bottom: 22px;
+}
+#weWant .anyQuestion ul li .black {
+	font-family: 'titillium_bold';
+	color: #000;
+}
+#weWant .anyQuestion ul li a {
+	color: #676767;
+	text-decoration: none;
+	transition: color .5s ease;
+}
+#weWant .anyQuestion ul li a:hover {
+	color: #000;
+}
+#weWant .text {
+	margin: 7% auto 0 auto;
+	width: 80%;
+}
+#weWant .text h1 {
+	font: 2.84em 'titillium_bold';
+	color: #000;
+}
+#weWant .sepp {
+	width: 110px;
+	margin: 30px auto;
+	background: #99def8;
+	height: 2px;
+	display: none;
+}
+#weWant .text h2 {
+	font: 1.1em 'titillium_regular';
+	color: #606060;
+	text-transform: uppercase;
+	margin-top: 15px;
+	letter-spacing: .05em;
+}
+#weWant .text .sep {
+	margin: 52px auto 0 auto;
+	height: 1px;
+	width: 130px;
+	background: #99def8;
+}
+#weWant .form {
+	margin: 57px auto 0 auto;
+	width: 70%;
+	font: 1.1em 'titillium_regular';
+	color: #606060;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+}
+#weWant .form input[type=text], #weWant .form input[type=email], #weWant .form input[type=tel], #weWant .form textarea {
+	width: 400px;
+	padding: 20px;
+	margin-left: 6px;
+	margin-right: 6px;
+	margin-bottom: 12px;
+	border: none;
+	outline: none;
+	background: #e5e5e5;
+	border-radius: 5px;
+	font: 1.1em 'titillium_regular';
+	color: #606060;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+}
+#weWant .form input[type=checkbox] {
+	height: 18px;
+}
+#weWant .form textarea {
+	height: 100px;
+}
+#weWant .form .checkBoxes {
+	display: inline-block;
+	width: 440px;
+	margin-left: 6px;
+	margin-right: 6px;
+	vertical-align: top;
+	text-align: left;
+	padding-top: 10px;
+}
+#weWant .form .checkBoxes .radio {
+	float: left;
+	width: 220px;
+	margin-bottom: 12px;
+}
+#weWant .form .checkBoxes .chh {
+	float: left;
+	margin-top: 1px;
+	margin-left: 3px;
+}
+#weWant .form a.submit {
+	display: block;
+	width: 271px;
+	height: 57px;
+	margin: 73px auto 0 auto;
+	background: url(../images/submit_btn_bg.jpg);
+	border-radius: 5px;
+	font: 1.1em 'titillium_semibold';
+	color: #FFF;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+#weWant .form a.submit:hover {
+	background-position: bottom;
+}
+
+@media screen and (max-width:600px) {
+	#weWant .form input[type=text], #weWant .form input[type=email], #weWant .form input[type=tel], #weWant .form textarea, #weWant .form .checkBoxes {
+		width: 80%;
+	}
+}

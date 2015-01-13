@@ -1,0 +1,213 @@
+#letsWork .bg {
+	position: absolute;
+	bottom: 0;
+	left: .5%;
+	width: 99%;
+	height: 99%;
+	background: url(../images/lets_work_bg.jpg) center 70px no-repeat;
+	background-size: contain;
+}
+#letsWork .text {
+	position: absolute;
+	top: 50%;
+	margin-top: -125px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+#letsWork .text h1 {
+	font: 8em 'futura_bk_bold';
+	color: #FFF;
+	text-transform: uppercase;
+	letter-spacing: -.02em;
+}
+#letsWork .text h2, #letsWork .text h3 {
+	font: 1.1em 'titillium_regular';
+	color: #FFF;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#letsWork .text .line {
+	margin: 52px auto 0 auto;
+	width: 90px;
+	height: 3px;
+	background: #00acee;
+}
+#letsWork .scrollDown {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -40px;
+	width: 81px;
+	height: 40px;
+	background: url(../images/scroll_down_circle.png);
+	cursor: pointer;
+}
+#letsWork .scrollDown .arrow {
+	position: absolute;
+	top: 22px;
+	left: 50%;
+	margin-left: -9px;
+}
+#letsWork #socialTab {
+	position: absolute;
+	margin-top: -77px;
+}
+
+#squares {
+	display: none;
+	position: relative;
+	overflow: hidden;
+}
+#squares .anim {
+	width: 20000px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#squares ul {
+	float: left;
+}
+#squares ul li {
+	float: left;
+	position: relative;
+	cursor: pointer;
+}
+#squares ul li a {
+	color: #FFF;
+	text-decoration: none;
+}
+#squares ul li img.mobile {
+	display: none;
+}
+#squares ul li .desc {
+	margin-top: 15px;
+	font: .84em Arial;
+	letter-spacing: .15em;
+	text-transform: uppercase;
+	display: none;
+	position: absolute;
+	bottom: 10%;
+	left: 0;
+	color: #FFF;
+	width: 100%;
+	text-align: center;
+}
+#squares ul li .desc h1 {
+	font: 2.8em 'titillium_bold';
+	font-size: 2.8em;
+	color: #FFF;
+	line-height: .9em;
+	margin-bottom: 5px;
+	letter-spacing: .01em;
+}
+#squares ul li .desc .viewProject {
+	display: inline-block;
+	margin: 16px auto 0 auto;
+	font: 1em Arial;
+	color: #FFF;
+	text-decoration: none;
+	padding: 12px 29px;
+	border: 1px solid #a8a19f;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+#squares ul li .hoverImg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+#squares ul li .hoverImg .websiteName {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#squares ul li .hoverImg .websiteName h1 {
+	font: 2.6em 'lokicola';
+	color: #FFF;
+}
+#squares ul li img {
+	display: block;
+}
+
+#list {
+	height: auto;
+	min-height: auto;
+	padding-top: 7%;
+	padding-bottom: 10%;
+	overflow: visible;
+}
+#list h1 {
+	font: 2.84em 'titillium_bold';
+	color: #000;	
+}
+#list h2 {
+	font: 1.1em 'titillium_regular';
+	color: #606060;
+	margin-top: 20px;
+	text-transform: uppercase;
+	letter-spacing: .1em
+}
+#list .sep {
+	height: 1px;
+	background: #99def8;
+	width: 130px;
+	margin: 50px auto 81px auto;
+}
+#list .categs {
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+}
+#list .categs .bloc {
+	display: inline-block;
+	margin-right: 170px;
+	vertical-align: top;
+}
+#list .categs .bloc ul li {
+	background: url(../images/categ_icon.jpg) left center no-repeat;
+	padding-left: 23px;
+	font: 1.23em 'titillium_light';
+	color: #000;
+	margin-bottom: 16px;
+	text-align: left;
+}
+#list a.freeQuote {
+	width: 591px;
+	height: 87px;
+	margin: 105px auto 0 auto;
+	background: url(../images/free_quote_bg.jpg) repeat-x;
+	border-radius: 3px;
+	text-align: center;
+	font: 1em 'titillium_light';
+	color: #FFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+}
+#list a.freeQuote:hover {
+	background-position: bottom;
+}
+#list a .large {
+	font: 2em 'titillium_bold';
+}
+a.letsWork {
+	background: #239fd2;
+	text-align: center;
+	font: .9em 'titillium_semibold';
+	color: #FFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-top: 34px;
+	padding-bottom: 34px;
+	display: none;
+	letter-spacing: .2em;
+	opacity: 0;
+}

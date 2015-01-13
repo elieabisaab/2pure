@@ -1,0 +1,105 @@
+@media screen and (max-width:1024px) {
+	#teamWork {
+		min-height: 320px;
+	}
+	#teamWork .bg {
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-attachment: scroll;
+	}
+	#teamWork .text {
+		top: 50%;
+		margin-top: -35px;
+	}
+	#teamWork .text h1 {
+		font: 3.4em 'futura_bk_bold';
+		line-height: .9em;
+	}
+	#teamWork #socialTab, #digitalSolutions .text .left .sepLine, #digitalSolutions .text .left h3, #digitalSolutions .text .left a.letsWork {
+		display: none;
+	}
+	a.letsWork {
+		display: block;
+	}
+	#teamWork .text .line {
+		margin: 36px auto 0 auto;
+	}
+	#digitalSolutions {
+		padding: 50px 0 0 0;
+	}
+	#digitalSolutions .bg {
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #FFF;
+	}
+	#digitalSolutions .text {
+		width: 100%;
+	}
+	#digitalSolutions .text .left {
+		float: none;
+		width: 90%;
+		text-align: center;
+		font: 1.5em 'titillium_regular';
+		padding: 0 5% 39px 5%;
+	}
+	#digitalSolutions .text .left h1, #digitalSolutions .text .left h2 {
+		font: 1.6em 'titillium_bold';
+		color: #1b1b1b;
+		text-transform: uppercase;
+		display: inline-block;
+		margin-bottom: 0;
+	}
+	#digitalSolutions .text .left h1 {
+		margin-right: 5px;
+	}
+	#digitalSolutions .text .left .sepLine1 {
+		display: block;
+	}
+	#digitalSolutions .text .right {
+		float: right;
+		width: 100%;
+		background: #ebe9e8;
+		padding: 0;
+		border-top: 2px solid #e2e2e2;
+	}
+	#digitalSolutions .text .right ul li {
+		display: block;
+		width: 100%;
+		height: 278px;
+		margin-left: 0;
+		margin-bottom: 1px;
+	}
+	#digitalSolutions .text .right ul li .icon {
+		top: 43px;
+		left: 50%;
+		margin-left: -40px;
+		width: 80px;
+	}
+	#digitalSolutions .text .right ul li h1 {
+		font: 1.7em 'titillium_bold';
+		letter-spacing: -.01em;
+		color: #1b1b1b;
+		top: 125px;
+	}
+	#digitalSolutions .text .right ul li h2 {
+		color: #636363;
+		font: 1.3em 'titillium_light';
+	}
+	#digitalSolutions .text .right ul li h2.first {
+		top: 177px;
+	}
+	#digitalSolutions .text .right ul li h2.second {
+		top: 200px;
+	}
+	#digitalSolutions .text .right ul li h2.third {
+		top: 222px;
+	}
+}
+
+
+
+
+
+

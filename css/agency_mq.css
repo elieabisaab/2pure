@@ -1,0 +1,142 @@
+@media screen and (max-width:1024px) {
+	#makesYouCurious {
+		min-height: 320px;	
+	}
+	#makesYouCurious .text, #makesYouCurious .scrollDown, #content .text #aPassionMobile, #content .text ul li .title.title1Mobile, #content .text ul li .title.title2Mobile, #content .text ul li .title.title3Mobile {
+		display: block;
+	}
+	#makesYouCurious .bg {
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url(../images/agency_bg.jpg);
+		background-attachment: scroll;
+		background-size: cover;
+	}
+	#emtpy, #socialTab {
+		display: none;
+		min-height: 0;
+		height: 0;
+	}
+	#content {
+		position: static;
+		top: 0;
+		left: 0;
+		width: 94%;
+		margin-left: 0;
+		padding: 80px 3% 60px 3%;
+		z-index: 0;
+		text-align: center;
+	}
+	#content .text {
+		font-size: 20px;
+		text-transform: none;
+		color: #636363;
+		letter-spacing: .001em;
+		font-size: 1.5em;
+		line-height: 1.3em;
+	}
+	#content h1, #content h2, #content #aPassion, #tabs {
+		display: none;
+	}
+	#content .sep, #content .sep1 {
+		margin: 30px auto;
+		width: 110px;
+		height: 2px;
+		background: #99def8;
+	}
+	#content .sep {
+		margin: 40px auto;
+	}
+	#content .learnMore {
+		font-size: 2.2em;
+		letter-spacing: -.03em;
+	}
+	#content .take {
+		font-size: 1.3em;
+		padding-left: 10%;
+		padding-right: 10%;
+		margin-bottom: 40px;
+		letter-spacing: -.01em;
+	}
+	#content #btns a {
+		width: 235px;
+		height: 53px;
+		background: #8ddff5;
+		font: 1.15em 'titillium_semibold';
+		letter-spacing: .05em;
+	}
+	#content #btns .or {
+		position: static;
+		left: 0;
+		top: 0;
+		margin: 8px auto;
+		width: 45px;
+	}
+	#content #btns a.explore, #content #btns a.view {
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+		display: inline-block;
+	}
+	#content .text ul li {
+		float: none;
+		width: 100%;
+		padding-right: 0;
+		font: .9em 'titillium_light';
+		color: #636363;
+		line-height: 1.4em;
+		margin-bottom: 39px;
+		text-align: center;
+	}
+	#content .text ul li.lastChild {
+		width: 100%;
+	}
+	#content .text ul li .title {
+		height: auto;
+		padding-bottom: 0;
+		padding-left: 0;
+		padding-top: 0;
+		margin-bottom: 35px;
+		font: 1.5em 'titillium_bold';
+		color: #000;
+		background: center top no-repeat;
+		line-height: 1em;
+		text-transform: uppercase;
+	}
+	#content .text ul li .title.title1, #content .text ul li .title.title2, #content .text ul li .title.title3 {
+		background-image: none;
+	}
+	#content .text .lliContainer {
+		margin-top: 25px;
+		margin-bottom: 25px;	
+	}
+	#content .text .lli {
+		background: none;
+		padding-left: 0;
+		color: #239fd2;
+		display: block;
+	}
+	#content .categs {
+		width: 100%;
+		background: #f8f8f8;
+	}
+	#content .categs .bloc {
+		display: block;
+		margin-right: 0;
+	}
+	#content .categs .bloc ul li {
+		background: none;
+		padding-left: 0;
+		font: 1.23em 'titillium_light';
+		color: #636363;
+		text-align: center;
+		margin-bottom: 11px;
+	}
+}
+
+
+
+
+
+

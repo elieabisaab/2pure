@@ -1,0 +1,209 @@
+#teamWork .bg {
+	position: absolute;
+	bottom: 0;
+	left: .5%;
+	width: 99%;
+	height: 99%;
+	background: url(../images/team_work_bg.jpg) 50% 50% fixed no-repeat;
+	background-size: cover;
+}
+#teamWork .text {
+	position: absolute;
+	top: 50%;
+	margin-top: -132px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+#teamWork .text h1 {
+	font: 9.7em 'futura_bk_bold';
+	color: #FFF;
+	text-transform: uppercase;
+	letter-spacing: -.005em;
+	line-height: .9em;
+}
+#teamWork .text .line {
+	margin: 44px auto 0 auto;
+	width: 90px;
+	height: 3px;
+	background: #00acee;
+}
+#teamWork .scrollDown {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -40px;
+	width: 81px;
+	height: 40px;
+	background: url(../images/scroll_down_circle.png);
+	cursor: pointer;
+}
+#teamWork .scrollDown .arrow {
+	position: absolute;
+	top: 22px;
+	left: 50%;
+	margin-left: -9px;
+}
+#teamWork #socialTab {
+	position: absolute;
+	margin-top: -77px;
+}
+
+#digitalSolutions {
+	height: auto;
+	min-height: auto;
+	overflow: visible;
+	padding: 3% 0 5% 0;
+}
+#digitalSolutions .bg {
+	position: absolute;
+	bottom: 0;
+	left: .5%;
+	width: 99%;
+	height: 99%;
+	background: #f6f6f6;
+}
+#digitalSolutions .text {
+	position: relative;
+	margin: 0 auto;
+	width: 90%;
+}
+#digitalSolutions .text .left {
+	float: left;
+	margin-top: 35px;
+	width: 35%;
+	text-align: left;
+	font: 1.23em 'titillium_regular';
+	color: #626262;
+}
+#digitalSolutions .text .left h1 {
+	font: 2.6em 'titillium_bold';
+	color: #212121;
+	text-transform: uppercase;
+}
+#digitalSolutions .text .left h2 {
+	font: 3.5em 'titillium_light';
+	color: #212121;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+	line-height: .7em;
+}
+#digitalSolutions .text .left .sepLine {
+	margin-top: 40px;
+	margin-bottom: 55px;
+	height: 1px;
+	width: 52px;
+	background: #6f6f6f;
+}
+#digitalSolutions .text .left .sepLine1 {
+	margin: 31px auto;
+	height: 1px;
+	width: 100px;
+	background: #99def8;
+	display: none;
+}
+#digitalSolutions .text .left h3 {
+	font: 2em 'titillium_light';
+	color: #454545;
+	line-height: 1.1em;
+}
+#digitalSolutions .text .left a.letsWork {
+	display: inline-block;
+	width: 231px;
+	height: 47px;
+	background: url(../images/explore_btn_bg.jpg) repeat-x;
+	border-radius: 3px;
+	font: .8em 'titillium_regular';
+	color: #FFF;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-top: 32px;
+	text-align: center;
+	letter-spacing: .1em;
+	padding: 0;
+}
+#digitalSolutions .text .left a.letsWork:hover {
+	background-position: bottom;
+}
+#digitalSolutions .text .right {
+	float: right;
+	width: 735px;
+	background: #ebe9e8;
+	padding: 1px 1px 1px 0;
+}
+#digitalSolutions .text .right ul li {
+	float: left;
+	width: 244px;
+	height: 312px;
+	background: #FFF;
+	position: relative;
+	margin-left: 1px;
+	margin-bottom: 1px;
+	text-align: center;
+	cursor: pointer;
+	overflow: hidden;
+}
+#digitalSolutions .text .right ul li .dark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #28282e;
+	display: none;
+}
+#digitalSolutions .text .right ul li .icon {
+	position: absolute;
+	top: 108px;
+	left: 50%;
+	margin-left: -28px;
+	width: 56px;
+}
+#digitalSolutions .text .right ul li h1 {
+	position: absolute;
+	top: 186px;
+	left: 0;
+	width: 100%;
+	font: 1.1em 'titillium_bold';
+	color: #434343;
+	text-transform: uppercase;
+}
+#digitalSolutions .text .right ul li h2 {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	font: 1em 'titillium_light';
+	color: #e4e4e4;
+}
+#digitalSolutions .text .right ul li h2.first, #digitalSolutions .text .right ul li h2.second, #digitalSolutions .text .right ul li h2.third {
+	top: 320px;
+}
+#digitalSolutions .text .right ul li a.learnMore {
+	position: absolute;
+	display: inline-block;
+	top: 320px;
+	left: 50%;
+	width: 138px;
+	margin-left: -69px;
+	padding-bottom: 10px;
+	border-bottom: 3px solid #3d3d45;
+	font: .84em 'titillium_light';
+	color: #67bdde;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	text-decoration: none;
+}
+
+a.letsWork {
+	background: #239fd2;
+	text-align: center;
+	font: .9em 'titillium_semibold';
+	color: #FFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-top: 34px;
+	padding-bottom: 34px;
+	display: none;
+	letter-spacing: .2em;
+	opacity: 0;
+}
